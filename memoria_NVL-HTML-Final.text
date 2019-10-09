@@ -1,0 +1,40 @@
+NVL-HTML-Final
+
+Proyecto pagina web CUIDAPETS
+
+La pagine web consta de 5 paginas enlazadas entre si a través del menú de navegación <nav>, son los siguientes:
+
+· Inicio
+· Quienes somos
+· Servicios
+· Tarifas
+· Contacto
+
+Cada una de las pestañas de navegación tienen insertado  el favicon con el logo de la pagina, anadido con la etiqueta link y en el head de la pagina junto con los titulos de las pestañas y la codificacion de caracteres (UTF-8)
+
+INICIO:
+En esta pagina de presentación de la misma, encontraremos ademas del menú de navegación <nav>, que es común en todas las paginas, una imagen <img> con un ancho de pantalla completo y un navigation sidebar (barra lateral de navegación ) <aside> , conformado en su interir por el tag <form> englobando un <input>  con su atributo type="text" donde escribiremos nuestra busqueda deseada y otro <input> esta vez type"submit" para crear asi el boton de busqueda, tambien incluyo un imagen Google haciendo referencia al buscador que se va a utilizar, al pulsar sobre el boton de buscar, se abrira una pestaña nueva para que el usuario no salga de nuestra pagina y buscar así cualquier información que nos surja  durante la estancia en la web, una vez se aplique estilo con css, se colocara en el lateral derecho de la pagina, el sidebar lo identifico mediante id=sidebar. Por ultimo nos encontramos con footer o pie de pagina donde podemos ver la dirección completa de la empresa así como el email, copyright, móvil, etc., al sidebar le asigno un identificador id=sidebar
+
+
+QUIENES SOMOS:
+En esta pagina lo primero que vemos en la cabecera es el nombre de la empresa con su logo mediante el tag <h1> al quele asigno su ID, seguido de su subtitulo <h4> con ID tambien, despues se situa en menu de navegación <nav> (común en cada una de las páginas), ahora nos encontramos con un <div> con si ID  y el tag <a name=> para enlazar con el menu de navegación  seguido de todas las secciones del cuerpo de la página,  por cada sección  tenemos un <div>  englobando cada cada una de ellas, asignandole una id a cada uno de ellos. Dentro del primer <div> dentro con su identificador de clase (class) común para el resto de los <div> donde conoceremos un poco a las miembros del proyecto y titulo tambien  identificado con  una clase (class) que será comun también en el resto de titulos de sección despues tenemos un parrafo <p> contando la historia del proyecto de la empresa, seguido de ina imagen <img> a la que le asigno una clase (class) para despues poder trabajar con ella mediante css. En el resto de <div> seguimos respetando los identificadores de clase (class) para el bloque y la clase de  su titulo.
+Finalmente inserto un imagen <img>  con su cita <cite> dentro de un div identificado con una ID, de la mascota de la empresa.
+Por ultimo nos encontramos con footer o pie de pagina donde podemos ver la dirección completa de la empresa así como el email, copyright, móvil, etc., al sidebar le asigno un identificador id=sidebar
+
+SERVICIOS:
+Esta página igual que las anteriores vemos su titulo <h1> en cabecera con el logo e indentificado con su ID, seguido del menu de navegación. Seguidamente tenemos un <div> con su ID dentro del cual tenemos el tag <a name=> para enlazar al menu de navegación, titulo y subtitulo con sus ID`s y una lista desordenada <ul> donde cada uno de sus elementos <li> describe cada uno de los servicios diponibles ,estos a su vez tienen el titulo de cada servicio en negrita mediante <b> y un salto de linea con la descripcón detellada del servicio en cuestión, en el primer elemento donde sugiero el usuario revisar las tarifa añado a continuacion un enlace a las misma mediante <a href=>, despues de la descripción añado unas imágenes <img> ajustando su ancho <width> al ancho total de pantalla. El procedimiento en cada <li> es el mismo.
+Por ultimo nos encontramos con footer o pie de pagina donde podemos ver la dirección completa de la empresa así como el email, copyright, móvil, etc., al sidebar le asigno un identificador id=sidebar
+
+TARIFA:
+Es el turno de la sección de las tarifas vigentes en cuidapets donde como en cada pagina vemos su titulo <h1> en cabecera con el logo e indentificado con su ID, seguido del menu de navegación, despues tenemos un <div> donde lo primero que hay dentro es el enlace al menu de navegación <a name=> el titulo de la sección con su ID y seguido de otros tres contenedores <div> cada uno de ellos con una tabla <table> con el titulo para cada una de ellas <caption>.
+La primera <table> es de 3 filas <tr> por 4 celdas <th> o <td>, donde se indican los precios para la residencia canina.
+La segunda <table> es de 2 filas <tr> por 3 celdas >th> o <td>, donde se indican los precios para la guarderia canina.
+La tercera <table> es de 2 filas <tr> por 2 celdas >th> o <td>, donde se indican los precios de los bonos disponibles con su descuento correspondinte al adquirirlos.
+Despues de cada <table> inserto un <br> para espaciarlas entre si, cada una al estar identificada con una ID se podra trabajar idividualmente con CSS para colocarlas en paralelo por ejemplo, ya que al ser elementos de bloque salen en pantalla en vertical, ademas también se pueden trabajar todas ellas en un mismo bloque al estar todas  dentro de un contenedor <div> identificado con su ID.
+Por ultimo nos encontramos con footer o pie de pagina donde podemos ver la dirección completa de la empresa así como el email, copyright, móvil, etc., al sidebar le asigno un identificador id=sidebar
+
+CONTACTO:
+La ultima pagina de la Web es donde inserto un formulario de contacto <form> con su method indicando el metodo de envio al sistema y si action indicandole así el destino donde se tratarán esos datos, este consta de cuatro <input> el primero destinado al nombre es de type="text", con su label delante para indicar que el campo esta destinado al nombre, el segundo de type="emeil destinado al email del usuario (en este caso si el navegador no detecta un email valido mediante un @ no dejara enviar el formulario y se lo hará saber al usuario, "el tercero de type="text" destinado al asunto y por ultimo un <textarea> don poder ponmer todo el texto de la pregunta, sugerencia, etc.
+Por ultimo nos encontramos con footer o pie de pagina donde podemos ver la dirección completa de la empresa así como el email, copyright, móvil, etc., al sidebar le asigno un identificador id=sidebar.
+
+
